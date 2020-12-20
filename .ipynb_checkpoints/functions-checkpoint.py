@@ -24,7 +24,10 @@ from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score, precision_score, recall_score, roc_curve, precision_recall_curve, f1_score, roc_auc_score
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.cluster import KMeans, DBSCAN
+from sklearn.decomposition import PCA
 from xgboost import XGBClassifier
+
 
 import os
 import pandas as pd
